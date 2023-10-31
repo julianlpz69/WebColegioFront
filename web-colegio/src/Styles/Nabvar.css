@@ -4,13 +4,9 @@
 }
 
 #Navar{
-    background-color: rgba(82, 41, 179, 0.5);
+    background-color: rgba(82, 41, 179, 0.5) !important;
 }
-.BarraNav{
-    
-    margin-left: 100px !important;
-    
-}
+
 *{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -20,6 +16,5 @@
     color: #130211 !important;
 }
 
-#Text1{
-    color: rgb(224, 222, 222);
-}
+
+
