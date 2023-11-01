@@ -1,0 +1,19 @@
+.logoCampus{
+    min-width: 150px !important;
+    height: 40px !important;
+}
+
+#Navar{
+    background-color: rgba(82, 41, 179, 0.5) !important;
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#btnIngresar{
+    font-family:'Courier New', Courier, monospace;
+    color: #130211 !important;
+}
+
+

@@ -1,14 +1,14 @@
 import { Navbar, Nav } from "react-bootstrap"
 import { Outlet, Link } from "react-router-dom"
 import  LogoCampus  from "../Images/Logo-campus.png"
-import '../Styles/Nabvar.css';
+import style from './Navbar.module.css';
 
 const NavBarExample = () => {
     return(
        <>    
        
-            <Navbar bg="dark" variant="dark" expand="lg" id="Navar" className="justify-content-between">
-            <Navbar.Brand className="text-primary mx-5" as={Link} to="/inicio" ><img src={LogoCampus} id="logoCampus" alt="logoCampus" /></Navbar.Brand>
+            <Navbar bg="dark" variant="dark" expand="lg"  className={`justify-content-between ${style.Navar}`}>
+            <Navbar.Brand className="text-primary mx-5" as={Link} to="/inicio" ><img src={LogoCampus} className={`${style.logoCampus}`} alt="logoCampus" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="BarraNav mx-auto gap-5 ">
