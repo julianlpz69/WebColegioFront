@@ -3,7 +3,7 @@
     height: 40px !important;
 }
 
-#Navar{
+.navar{
     background-color: rgba(82, 41, 179, 0.5) !important;
 }
 
@@ -11,9 +11,14 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-#btnIngresar{
+.btnIngresar{
     font-family:'Courier New', Courier, monospace;
     color: #130211 !important;
 }
 
 
+.body{
+    background-image: url('../Images/FondoCampus.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-repeat: no-repeat;
+}

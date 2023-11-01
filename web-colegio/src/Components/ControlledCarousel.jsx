@@ -5,7 +5,7 @@ import  imagen2  from "../Images/ControlledCarousel2.jpg"
 import  imagen3  from "../Images/ControlledCarousel3.jpg"
 
 import ExampleCarouselImage from './ExampleCarouselImage';
-import '../Styles/ControlledCarousel.css';
+
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);

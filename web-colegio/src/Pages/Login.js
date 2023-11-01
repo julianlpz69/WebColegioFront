@@ -1,8 +1,8 @@
-
+import style from "./Login.module.css"
 
 function Login() {
     return (
-      <div classNameName="Login">
+      <div classNameName={style.body}>
     <div className="container-form hide loggin">
         <div className="information">
             <div className="info-childs">

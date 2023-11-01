@@ -1,0 +1,16 @@
+.body{
+    background-image: url('../Images/FondoCampus.png'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-repeat: no-repeat;
+}
+
+h2{
+    color: white !important;
+    font-size: 58px !important;
+    font-weight:bold !important;
+
+}
+
+.containerH2{
+    margin-left: 100px;
+}
