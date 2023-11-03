@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  const navigate = useNavigate();
+
+
     
     const [error, setError] = useState(false)
     
@@ -27,9 +31,9 @@ const Login = () => {
 
       // Redirige a la página según el rol del usuario
       if (rol === 'cliente') {
-        history.push('/cliente');
+        navigate('/cliente');
       } else if (rol === 'empleado') {
-        history.push('/empleado');
+        navigate('/empleado');
       } else {
         // Manejar otros roles si es necesario
         console.error('Rol no reconocido');
