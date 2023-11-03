@@ -6,8 +6,8 @@ import style from './Footer.module.css';
 
 const FooterExample = () => {
   return (
-    <footer>
-        <p className='fs-5'>© 2023  -   Desarrollado por the best.</p>
+    <footer className={`${style.body}`}>
+       
         <div className={ `navbar navbar-expand-lg ${style.footer}`} id='footer'>
           <div className="mx-auto text-center">
             <span className="navbar-text mb-0 m-5 text-white"><i className="bi bi-telephone-forward mt-5  me-2"></i> (607) 6436161</span>

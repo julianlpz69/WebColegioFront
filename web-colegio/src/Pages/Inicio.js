@@ -1,5 +1,5 @@
 import ControlledCarousel from "../Components/ControlledCarousel";
-import "../Styles/Inicio.css"
+import style from"./Inicio.module.css"
 
 function Inicio() {
     return (

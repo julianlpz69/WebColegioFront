@@ -5,9 +5,8 @@ import style from './Navbar.module.css';
 
 const NavBarExample = () => {
     return(
-       <>    
-       
-            <Navbar bg="dark" variant="dark" expand="lg"  className={`justify-content-between ${style.navar}`}>
+       <div className="">    
+            <Navbar expand="lg"  className={`${style.fondoNavar}`}>
             <Navbar.Brand className="text-primary mx-5" as={Link} to="/inicio" ><img src={LogoCampus} className={`${style.logoCampus}`} alt="logoCampus" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -41,7 +40,7 @@ const NavBarExample = () => {
         <section>
             <Outlet></Outlet>
         </section>
-       </>
+       </div>
 
 
     )
