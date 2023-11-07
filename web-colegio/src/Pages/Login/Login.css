@@ -1,0 +1,184 @@
+
+.body{
+    background-image: url('../../Images/pexels-luis-gomes-546819.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen al tamaño de la ventana */
+    background-repeat: no-repeat;
+
+    padding: 1px;
+}
+
+
+.containers{
+    display: flex;
+    flex-direction: column;
+    margin:  auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    width: 550px !important;
+    border-radius: 5%;
+
+
+}
+
+.logoLogin{
+    height: 150px !important;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 400px;
+    height: 6px;
+    background-color: #3c009d;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #EAEAEA;
+    border-radius: 6px;
+
+}
+.bi{
+    font-size: 25px;
+    margin: 0px 30px;
+}
+
+.input input{
+    height:  50px;
+    width: 400px;
+    background: transparent;
+    border: none !important;
+    outline-color: none;
+    color: #292929 !important;
+    font-size: 22px;
+}
+
+.input input:focus {
+    outline: none;
+  }
+
+  .submit:hover {
+    background-color: #140330;
+  }
+
+.forgot-password{
+    padding-left: 32px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+
+
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  
+  background: rgb(156, 154, 154);
+}
+
+
+
+
+.submit-container{
+    margin: 20px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 59px;
+    color: #fff;
+    background-color: #4c00b4;
+    border-radius: 50px;
+    font-size: 29px;
+    font-weight: 700px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.submits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 59px;
+    color: #fff;
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 29px;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
+.btnGoogle {
+    width: 480px !important;
+    font-size: 30px !important;
+    background-color: #4285f4 ;
+    color: #353131 !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px !important;
+    border-color: rgb(204, 200, 200) !important;
+  }
+
+  .btnGoogle span {
+   
+    margin-left: 40px !important;
+
+  }
+  
+  .btnGoogle:hover {
+    /* Estilos cuando el mouse está sobre el botón */
+    background-color: #ebebf7 !important;
+  }
+
+.githu{
+    background-color: #08050c;
+}
+
+.errorMensaje{
+    
+    font-size: 22px;
+    font-weight: bold !important;
+}

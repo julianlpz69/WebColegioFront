@@ -31,8 +31,8 @@ const NavBarExample = () => {
                 
                
             </Nav>
-            <Nav.Link className={`text-center col-lg-3 fs-4 fw-bold btnIngresar ${style.btnIngresar}`} id="btnIngresar" as={Link} to="/Login">
-                <i className="bi bi-box-arrow-in-right me-2 d-block "></i>Ingresar
+            <Nav.Link className={`text-center col-lg-3 fs-3 fw-bold btnIngresar ${style.btnIngresar}`} id="btnIngresar" as={Link} to="/Login">
+                <i className="bi bi-box-arrow-in-right fs-2 d-block "></i>Ingresar
                 </Nav.Link>
         </Navbar.Collapse>
         </Navbar> 

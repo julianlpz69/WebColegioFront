@@ -4,7 +4,6 @@ import  imagen1  from "../Images/ControlledCarousel1.jpg"
 import  imagen2  from "../Images/ControlledCarousel2.jpg"
 import  imagen3  from "../Images/ControlledCarousel3.jpg"
 
-import ExampleCarouselImage from './ExampleCarouselImage';
 
 
 function ControlledCarousel() {
@@ -12,6 +11,14 @@ function ControlledCarousel() {
 
   const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
+  };
+
+  const ExampleCarouselImage = ({  imageUrl }) => {
+    return (
+      <div>
+        <img src={imageUrl} />
+      </div>
+    );
   };
 
   return (

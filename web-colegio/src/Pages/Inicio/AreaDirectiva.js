@@ -1,10 +1,13 @@
+import FooterExample from '../../Layouts/Footer';
 
 
 function AreaDirectiva() {
     return (
       <div className="AreaDirectiva">
-        AreaDirectiva
+        <p>sssss</p>
+        <FooterExample/>
         </div>
+        
       )
 }  
 

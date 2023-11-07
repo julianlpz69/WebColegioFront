@@ -8,11 +8,17 @@ const FooterExample = () => {
   return (
     <footer className={`${style.body}`}>
        
-        <div className={ `navbar navbar-expand-lg ${style.footer}`} id='footer'>
-          <div className="mx-auto text-center">
-            <span className="navbar-text mb-0 m-5 text-white"><i className="bi bi-telephone-forward mt-5  me-2"></i> (607) 6436161</span>
-            <span className="navbar-text m-5 text-white"><i className="bi bi-envelope text-white me-2"></i>Comunidad@CampusLands.edu.co</span>
-            <span className="navbar-text m-5 text-white"><i className="bi bi-whatsapp mt-5  me-2"></i>(+57) 3132419753</span>
+        <div className={ `container`} id='footer'>
+          <div className="row text-center">
+            <div className='col-6 col-lg-4'>
+              <p className="navbar-text  text-white"><i class="bi bi-telephone-forward"></i> (607) 6436161</p>
+            </div>
+            <div className='col-6 col-lg-4'>
+              <span className="navbar-text  text-white"><i className="bi bi-envelope text-white"></i>Comunidad@CampusLands.edu.co</span>
+            </div>
+            <div className='col-12 col-lg-4'>
+              <span className="navbar-text  text-white"><i className="bi bi-whatsapp "></i>(+57) 3132419753</span>
+            </div>
           </div>
         </div>
     </footer>
