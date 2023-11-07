@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
+import NavbarAdmin from './Layouts/NavbarAdmin';
 
 //importamos los comp creados
 import Inicio from './Pages/Inicio/Inicio';
@@ -57,14 +58,14 @@ function App() {
               <Route path='Login' element={<RutaLogin> <Login /> </RutaLogin>} />
             </Route>
           
-            <Route>
-              <Route path='AdminProfesor' element={<RutasProtegidas><AdminProfesor /></RutasProtegidas> } />
-              <Route path='AdminPadre' element={<RutasProtegidas> <AdminPadre /> </RutasProtegidas>} />
-              <Route path='InicioAdministrador' element={<RutasProtegidas> <InicioAdministrador /> </RutasProtegidas>} />
-              <Route path='AdminEstudiante' element={<RutasProtegidas> <AdminEstudiante /> </RutasProtegidas>} />
-              <Route path='AdminSetting' element={<RutasProtegidas> <AdminSetting /> </RutasProtegidas>} />
-              <Route path='AdminGrupo' element={<RutasProtegidas> <AdminGrupo /> </RutasProtegidas>} />
-              <Route path='*' element={ <Navigate replace to="/InicioAdministrador"/> }/>
+            <Route element = {<RutasProtegidas><NavbarAdmin/></RutasProtegidas>}>
+              <Route path='/AdminProfesor' element={<RutasProtegidas><AdminProfesor /></RutasProtegidas> } />
+              <Route path='/AdminPadre' element={<RutasProtegidas> <AdminPadre /> </RutasProtegidas>} />
+              <Route path='/InicioAdministrador' element={<RutasProtegidas> <InicioAdministrador /> </RutasProtegidas>} />
+              <Route path='/AdminEstudiante' element={<RutasProtegidas> <AdminEstudiante /> </RutasProtegidas>} />
+              <Route path='/AdminSetting' element={<RutasProtegidas> <AdminSetting /> </RutasProtegidas>} />
+              <Route path='/AdminGrupo' element={<RutasProtegidas> <AdminGrupo /> </RutasProtegidas>} />
+              <Route path='*'element={<RutasProtegidas><InicioAdministrador /></RutasProtegidas>}/>
             </Route>
           </Routes>
         </BrowserRouter>

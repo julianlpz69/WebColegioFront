@@ -1,12 +1,37 @@
-import NavbarAdmin from '../../Layouts/NavbarAdmin';
+
 import style from "./AdminEstudiante.module.css"
 const AdminEstudiante =() =>{
     return (
       
       <div className={`${style.AdminEstudiante}`}>
-        <NavbarAdmin/>
+
         <div>
-          <h1>AdminEstudiante</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1><h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
+          <h1>AdminEstudianteeeeeeeeeeeeeeeeeee</h1>
           
         </div>
         

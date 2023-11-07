@@ -9,7 +9,7 @@ import style from "./NavbarAdmin.module.css"
 
 const NavbarAdmin = () => {
 
-    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -27,25 +27,25 @@ const NavbarAdmin = () => {
 // Agregar un evento de clic al elemento que debería abrir/cerrar la barra lateral
 
     return(
-        
-      <nav className={`${style.sidebar} ${isSidebarOpen ? style.closed : ''} `}>
+    <div className={`${style.con}`}>    
+      <Navbar className={`${style.sidebar} ${isSidebarOpen ? style.closed : ''} `}>
           <ul className={`${style.styleUL}`}>
-            <li > 
-            <span className={`${style.textRol} ${isSidebarOpen ? "" : 'd-none'} `}>Administrador</span>
-              <button className={`${style.toggleButton}`} onClick={toggleSidebar} type="button"><i class={`bi bi-justify ${style.iconoNav}`}></i></button>
+            <li className={`${style.liSolo}`}> 
+              <i class={`bi bi-justify ${style.iconoNav}`} onClick={toggleSidebar}/>
+              <span className={`${style.textRol} `}>Administrador</span>
             </li>
             <li className={`${style.userData}`}>
               <img src={LogoCampus} alt="" className={`${style.LogoNavar}`}/>
-              <span className={`${style.navItem}`}>Julian</span>
+              <span className={`${style.nombrePersona}`}>Julian</span>
             </li>
             <NavLink className={`${style.styleA}`} as={Link} to="/InicioAdministrador">
             <li>
             <i class="bi bi-house-heart"></i>
               <span className={`${style.navItem}`}>Home</span>
-            </li>
+            </li >
             </NavLink>
             <NavLink className={`${style.styleA}`} as={Link} to="/AdminProfesor">
-            <li>
+            <li >
           
             <i class="bi bi-journal-text"></i>
               <span className={`${style.navItem}`}>Docentes</span>
@@ -77,14 +77,17 @@ const NavbarAdmin = () => {
             </NavLink>
       
             <a onClick={Logout} type='button' className={`${style.logout}`}>
-            <li >
+            <li  >
             <i class="bi bi-box-arrow-left"></i>
                 <span className={`${style.navItem}`}>Cerrar Secion</span>
             </li>
         </a>
           </ul>
-        </nav>
-        
+        </Navbar>
+        <section className={`${style.section} ${isSidebarOpen ? style.closeds : ''}`} >
+            <Outlet></Outlet>
+        </section>
+      </div>    
    
 
 

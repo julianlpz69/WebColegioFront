@@ -12,7 +12,7 @@ const BtnLogout = (logout) => {
         <a onClick={funcion} type='button' className='btnLogout'>
             <li className={`${logout}`}>
                 <i class="bi bi-0-circle"></i>
-                <span className="nav-item">Cerrar Secion</span>
+                <span className="nav-item">Cerrar Sesión</span>
             </li>
         </a>
     )
